@@ -191,6 +191,8 @@
   .frame::after { top: -1px; right: -1px; border-left: none; border-bottom: none; }
   .frame i::before { bottom: -1px; left: -1px; border-right: none; border-top: none; }
   .frame i::after { bottom: -1px; right: -1px; border-left: none; border-top: none; }
+  .frame i { position: absolute; inset: 0; overflow: hidden; }
+  .frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
   .gallery-note { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.04em; color: var(--ink-soft); text-align: center; margin: 0 0 3.4rem; }
 
@@ -267,7 +269,7 @@
 
   <div class="screen step" id="guaranteeScreen">
     <p class="unbox-eyebrow">гарантия</p>
-    <p class="spec-item" style="margin-bottom:.9rem">пока смерть не разлучит</p>
+    <p class="spec-item" style="margin-bottom:.9rem">Вместе навсегда</p>
     <button class="hud-panel guarantee-panel" id="guaranteeBtn" aria-label="Поставить печать">
       <div class="hud-panel-border"></div>
       <svg class="stamp-target" viewBox="0 0 100 100" aria-hidden="true">
@@ -347,11 +349,11 @@
     <p class="prose reveal-item" style="animation-delay:.6s">Пусть это будет не просто красивая дата в календаре, а начало самой тёплой и настоящей главы вашей жизни — с общими планами, глупыми шутками по вечерам и уверенностью друг в друге, что бы ни случилось.</p>
     <p class="prose reveal-item" style="animation-delay:.7s">Дарим вам два браслета с вашим вайбом, пусть это всегда будет напоминанием что вы теперь всегда на одной волне.</p>
 
-    <div class="gallery">
-      <div class="frame reveal-item" style="animation-delay:.8s" ><i><img src="20260904_175026.jpg" /></i></div>
-      <div class="frame reveal-item" style="animation-delay:.87s"><i></i></div>
-      <div class="frame reveal-item" style="animation-delay:.94s"><i></i></div>
-    </div>
+   <div class="gallery">
+  <div class="frame reveal-item" style="animation-delay:.8s"><i><img src="photo_2026-09-05_23-39-26.jpg" alt=""></i></div>
+  <div class="frame reveal-item" style="animation-delay:.87s"><i><img src="photo_2026-09-05_23-39-29.jpg" alt=""></i></div>
+  <div class="frame reveal-item" style="animation-delay:.94s"><i><img src="photo_2026-09-05_23-39-31.jpg" alt=""></i></div>
+</div>
     
 
     <p class="signature reveal-item" style="animation-delay:1.1s">
